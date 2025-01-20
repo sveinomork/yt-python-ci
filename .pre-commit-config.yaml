@@ -17,7 +17,7 @@ repos:
     hooks:
       - id: pytest
         name: pytest
-        entry: pytest
+        entry: pytest --maxfail=5 --disable-warnings --tb=short tests
         language: python
         pass_filenames: false
         always_run: true
