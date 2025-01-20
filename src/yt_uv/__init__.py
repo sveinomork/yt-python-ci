@@ -6,5 +6,5 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
-def multiply(a: float, b: int) -> float:
-    return a * b
+def multiply(a: float, b: int, c: int) -> float:
+    return a * b+c
