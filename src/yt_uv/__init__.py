@@ -7,4 +7,4 @@ def add(a: int, b: int) -> int:
 
 
 def multiply(a: float, b: int, c: int) -> float:
-    return a * b+c
+    return a * b + c
