@@ -15,7 +15,11 @@ build-backend = "hatchling.build"
 universal = true
 
 [dependency-groups]
-dev = ["pytest-cov>=5.0.0", "pyright>=1.1.381"]
+dev = [
+    "pytest-cov>=5.0.0",
+ "pyright>=1.1.381",
+ "pytest>=8.3.2",
+]
 
 [tool.ruff]
 line-length = 100

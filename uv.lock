@@ -122,6 +122,7 @@ source = { editable = "." }
 [package.dev-dependencies]
 dev = [
     { name = "pyright" },
+    { name = "pytest" },
     { name = "pytest-cov" },
 ]
 
@@ -130,5 +131,6 @@ dev = [
 [package.metadata.requires-dev]
 dev = [
     { name = "pyright", specifier = ">=1.1.381" },
+    { name = "pytest", specifier = ">=8.3.2" },
     { name = "pytest-cov", specifier = ">=5.0.0" },
 ]
